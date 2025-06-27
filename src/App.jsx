@@ -31,8 +31,6 @@ function App() {
                 <BookCard title={books[2].title} author={books[2].author}  cover={books[2].cover} />
                 <BookCard title={books[3].title} author={books[3].author}  cover={books[3].cover} />
             </div> */}
-            <Counter />
-            </div> */}
 
             <Counter />
         </>
