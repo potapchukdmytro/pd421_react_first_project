@@ -1,8 +1,8 @@
 import "./App.css";
 import BookCard from "./components/bookCard/BookCard";
 import Counter from "./components/counter/Counter";
-import Counter from "./components/counter/Counter";
 import Navbar from "./components/navbar/Navbar";
+import Profile from "./components/profile/Profile";
 
 const booksGrid = {
     display: "grid", 
@@ -32,7 +32,9 @@ function App() {
                 <BookCard title={books[3].title} author={books[3].author}  cover={books[3].cover} />
             </div> */}
 
-            <Counter />
+            {/* <Counter /> */}
+
+            <Profile />
         </>
     );
 }
