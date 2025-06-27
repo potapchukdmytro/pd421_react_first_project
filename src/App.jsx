@@ -1,5 +1,6 @@
 import "./App.css";
 import BookCard from "./components/bookCard/BookCard";
+import Counter from "./components/counter/Counter";
 import Navbar from "./components/navbar/Navbar";
 
 const booksGrid = {
@@ -22,12 +23,14 @@ function App() {
     return (
         <>
             <Navbar />
-            <div style={booksGrid}>
+            {/* <div style={booksGrid}>
                 <BookCard title={books[0].title} author={books[0].author}  cover={books[0].cover} />
                 <BookCard title={books[1].title} author={books[1].author}  cover={books[1].cover} />
                 <BookCard title={books[2].title} author={books[2].author}  cover={books[2].cover} />
                 <BookCard title={books[3].title} author={books[3].author}  cover={books[3].cover} />
-            </div>
+            </div> */}
+
+            <Counter />
         </>
     );
 }

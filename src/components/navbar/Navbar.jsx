@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import {CircleButton, SquareButton} from "./../buttons";
 
 const linkStyle = {
     textDecoration: "none", 
@@ -22,6 +23,8 @@ function Navbar() {
             <a href="#" style={linkStyle}>Автори</a>
             <a href="#" style={linkStyle}>Про нас</a>
             <a href="#" style={linkStyle}>Контакти</a>
+            <CircleButton text="Rounded"/>
+            <SquareButton text="Rectangle"/>
         </div>
     );
 }
